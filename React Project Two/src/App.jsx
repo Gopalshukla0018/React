@@ -6,9 +6,9 @@ function App() {
 
   return (
     <div className='container'>
-      <Usercart name="Gopal"/>
-      <Usercart name="rana" />
-      <Usercart name="Prthviraj chauhan"/>
+      <Usercart name="Gopal" desc='desc1'/>
+      <Usercart name="rana" desc='desc2'/>
+      <Usercart name="Prthviraj chauhan"desc='desc3' />
     </div>
   );
 }

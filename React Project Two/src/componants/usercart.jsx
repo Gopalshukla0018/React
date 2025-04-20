@@ -7,7 +7,7 @@ const usercart = (props) => {
     <div className='user-container'>
       <p id='user-name'>{props.name}</p>
       <img id='user-img' src={gopalPic} alt="Gopal" />
-      <p id='user-desc'>description of Gopal Shukla </p>
+      <p id='user-desc'>{props.desc}</p>
     </div>
   )
 }
