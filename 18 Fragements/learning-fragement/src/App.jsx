@@ -1,4 +1,4 @@
-
+import "./App.css";
 
 function App() {
   // let foodItems = [];
@@ -12,7 +12,7 @@ function App() {
           <li key={items} className="list-group-item">
             {items}
           </li>
-        ))} 
+        ))}
       </ul>
     </>
   );
