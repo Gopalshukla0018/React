@@ -1,5 +1,5 @@
-const ErrorMesage = (items) => {
-  return <> {items.length === 0 && <h3>i am still hungry bro </h3>}</>;
+const ErrorMessage = ({ items }) => {
+  return <>{items.length === 0 && <h3>I am still hungry bro</h3>}</>;
 };
 
-export default ErrorMesage;
+export default ErrorMessage;
