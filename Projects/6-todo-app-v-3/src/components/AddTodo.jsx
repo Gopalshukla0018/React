@@ -16,6 +16,11 @@ function Addtodo({ onNewItem }) {
     setDueDate("");
     setTodoName("");
   };
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      handleAddBttonClicked();
+    }
+  };
 
   return (
     <div className="container text-center">
@@ -26,12 +31,11 @@ function Addtodo({ onNewItem }) {
             placeholder="Enter your ToDo"
             value={todoName}
             onChange={handleNameChange}
+            onKeyDown={handleKeyDown}
           />
         </div>
         <div className="col-4">
-          <input type="date" 
-          value={dueDate}
-          onChange={handleDateChange} />{" "}
+          <input type="date" value={dueDate} onChange={handleDateChange} />{" "}
         </div>
         <div className="col-2">
           {" "}
