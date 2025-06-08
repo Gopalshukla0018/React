@@ -27,7 +27,7 @@ function App() {
   };
 
   return (
-    <center className="todo-container">
+    <center className="todo-container ">
       <AppName />
       <Addtodo onNewItem={handleonNewItem} />
       {todoItems.length === 0 && <WelcomeMessage />}
