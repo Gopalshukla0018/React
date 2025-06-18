@@ -67,3 +67,10 @@ body {
 
   height: 50%;
 }
+
+.filter-btn{
+  padding: 10px;
+  margin: 10px;
+width: 100px;
+  cursor: pointer;
+}
