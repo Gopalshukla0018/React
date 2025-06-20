@@ -11,12 +11,10 @@ body {
   width: 100%;
 } */
 
-
-
 .header {
   border: 1px solid black;
   display: flex;
- 
+
   justify-content: space-between;
 }
 .logo {
@@ -40,17 +38,13 @@ body {
   /* border: 1px solid black; */
   margin: 5px;
 }
-.res-container{
+.res-container {
   display: flex;
   flex-wrap: wrap;
-  
- 
 }
 .res-card {
   width: 200px;
-  
-  
-  
+
   padding: 5px;
   margin: 5px;
 }
@@ -61,6 +55,16 @@ body {
 .search-bar {
   padding: 10px;
 }
+.filter{
+  display: flex;
+   
+  
+}
+.search-container{
+   padding: 10px;
+  margin: 10px;
+  
+}
 
 .res-logo {
   width: 100%;
@@ -68,9 +72,31 @@ body {
   height: 50%;
 }
 
-.filter-btn{
-  padding: 10px;
-  margin: 10px;
-width: 100px;
+.filter-btn {
+
+  margin: 20px;
+  height: 30px;
+  font-size: small;
+  
   cursor: pointer;
 }
+.shimmer-card {
+  width: 200px;
+  height: 300px;
+  background: #f0f0f0;
+
+  padding: 0;
+  margin: 16px;
+}
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+}
+.login-logout-button {
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
