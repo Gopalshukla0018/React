@@ -47,8 +47,8 @@ const Body = () => {
 
           
             />
-            console.log("gopal");
-            console.log("gopal");
+            {/* console.log("gopal");
+            console.log("gopal"); */}
             
           <button
             onClick={() => {
