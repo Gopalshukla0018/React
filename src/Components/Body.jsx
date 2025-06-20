@@ -44,7 +44,7 @@ const Body = () => {
               setsearchText(e.target.value);
             }}
           />
-          /* console.log("gopal"); console.log("gopal"); */
+          console.log("gopal"); console.log("gopal");
           <button
             onClick={() => {
               const filteredres = Listofrestaurant.filter((res) =>
